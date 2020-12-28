@@ -42,14 +42,14 @@ impl Sorter for InsertionSort {
 }
 
 #[test]
-fn insertion_binary_version_works() {
+fn insertion_binary_works() {
     let mut things = vec![4, 3, 5, 2, 1];
     InsertionSort { binary: true }.sort(&mut things);
     assert_eq!(things, &[1, 2, 3, 4, 5]);
 }
 
 #[test]
-fn insertion_non_binary_version_works() {
+fn insertion_non_binary_works() {
     let mut things = vec![4, 3, 5, 2, 1];
     InsertionSort { binary: false }.sort(&mut things);
     assert_eq!(things, &[1, 2, 3, 4, 5]);
