@@ -5,7 +5,8 @@ use super::Sorter;
 pub struct BubbleSort;
 
 impl Sorter for BubbleSort {
-    fn sort<T>(&self, slice: &mut [T]) // &self is unused for this struct + impl.
+    fn sort<T>(&self, slice: &mut [T])
+    // &self is unused for this struct + impl.
     where
         T: Ord,
     {

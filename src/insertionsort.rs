@@ -2,8 +2,8 @@ use super::Sorter;
 
 // Insertion sort has generally poor performance: O(n^2).
 // Possible good choice for ordering linked lists.
-pub struct InsertionSort{
-    binary: bool
+pub struct InsertionSort {
+    binary: bool,
 }
 
 impl Sorter for InsertionSort {
@@ -20,7 +20,7 @@ impl Sorter for InsertionSort {
                 let mut i = unsorted;
 
                 while i > 0 && slice[i - 1] > slice[i] {
-                    slice.swap(i -1, i);
+                    slice.swap(i - 1, i);
                     i -= 1;
                 }
             } else {
@@ -35,8 +35,6 @@ impl Sorter for InsertionSort {
 
                 slice[i..=unsorted].rotate_right(1);
             }
-
-
         }
     }
 }
