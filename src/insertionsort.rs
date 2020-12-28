@@ -2,6 +2,7 @@ use super::Sorter;
 
 // Insertion sort has generally poor performance: O(n^2).
 // Possible good choice for ordering linked lists.
+
 pub struct InsertionSort {
     binary: bool,
 }
