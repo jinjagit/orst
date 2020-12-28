@@ -1,6 +1,6 @@
 use super::Sorter;
 
-// Bubble sort has terrible performance: O(n^2). Don't use it!
+// Bubble sort has poor time complexity: O(n^2). Don't use it!
 
 pub struct BubbleSort;
 
