@@ -1,11 +1,11 @@
 use super::Sorter;
 
-// Bubble sort sucks. Don't use it!
+// Bubble sort has terrible performance: O(n^2). Don't use it!
 
-pub struct Bubblesort;
+pub struct BubbleSort;
 
-impl Sorter for Bubblesort {
-    fn sort<T>(slice: &mut [T])
+impl Sorter for BubbleSort {
+    fn sort<T>(&self, slice: &mut [T]) // &self is unused for this struct + impl.
     where
         T: Ord,
     {
@@ -27,6 +27,6 @@ impl Sorter for Bubblesort {
 #[test]
 fn it_works() {
     let mut things = vec![4, 3, 5, 2, 1];
-    super::sort::<_, Bubblesort>(&mut things);
+    BubbleSort.sort(&mut things);
     assert_eq!(things, &[1, 2, 3, 4, 5]);
 }
