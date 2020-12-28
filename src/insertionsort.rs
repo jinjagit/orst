@@ -3,6 +3,10 @@ use super::Sorter;
 // Insertion sort has generally poor performance: O(n^2).
 // Possible good choice for ordering linked lists.
 
+// Note: Insertion sort has 2 advantages, speed on short lists and speed on almost-sorted lists.
+// Binary search ruins both of those, due to being quadratic and less cahce friendly.
+// Included just to illustrate some of binary search functionality in Rust.
+
 pub struct InsertionSort {
     binary: bool,
 }
