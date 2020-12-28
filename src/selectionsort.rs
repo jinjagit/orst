@@ -13,8 +13,8 @@ impl Sorter for SelectionSort {
     {
         // [ sorted | not sorted ]
         for unsorted in 0..slice.len() {
-            // find smallest value in slice[unsorted..]
-            // move to end of slice[sorted..]
+            // Find smallest value in slice[unsorted..]
+            // Move to end of slice[sorted..]
             let mut smallest_in_not_sorted = unsorted;
 
             for i in (unsorted + 1)..slice.len() {

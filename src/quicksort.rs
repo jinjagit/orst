@@ -23,34 +23,35 @@ fn quicksort<T: Ord>(slice: &mut [T]) {
 
     while left <= right {
         if &rest[left] <= pivot {
-            // already on correct side
+            // Already on correct side.
             left += 1;
         } else if &rest[right] > pivot {
-            // right already on the correct side
-            // avoid unnecessary swaps back and forth
+            // Right already on the correct side.
+            // Avoids unnecessary swaps back and forth.
             right -= 1;
         } else {
-            // left holds a right, and right holds a left; swap them
+            // Left holds a right, and right holds a left; swap them.
             rest.swap(left, right);
             left += 1;
             right -= 1;
         }
     }
 
-    // re-align left to account for the pivot at 0
+    // Re-align left to account for the pivot at 0.
     let left = left + 1;
 
-    // place pivot in its final position
+    // Place pivot in its final position.
     slice.swap(0, left - 1);
 
-    // split_at_mut(mid: usize) -> (&mut [..mid, &mut[mid..]])
+    // Split_at_mut(mid: usize) -> (&mut [..mid, &mut[mid..]])
     let (left, right) = slice.split_at_mut(left - 1);
 
     assert!(left.last() <= right.first());
 
+    // This recursion continues the ordering process, by passing on
+    // each of the two parts of the list for further processing.
     quicksort(left);
     quicksort(&mut right[1..]);
-    // merge them together
 }
 
 impl Sorter for QuickSort {

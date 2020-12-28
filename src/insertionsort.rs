@@ -18,8 +18,8 @@ impl Sorter for InsertionSort {
     {
         // [ sorted | not sorted ]
         for unsorted in 1..slice.len() {
-            // slice[unsorted..] is not sorted
-            // take slice[unsorted] and place in location in slice[..=unsorted]
+            // Slice[unsorted..] is not sorted
+            // Take slice[unsorted] and place in location in slice[..=unsorted]
 
             if !self.binary {
                 let mut i = unsorted;
