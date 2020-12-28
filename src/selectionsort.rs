@@ -1,6 +1,6 @@
 use super::Sorter;
 
-// Selection sort has time complexity: O(n^2).
+// Selection sort has average time complexity: O(n^2).
 // It's generally worse than insertion sort.
 // Works with original data entirely in place.
 

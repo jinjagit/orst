@@ -1,6 +1,6 @@
 use super::Sorter;
 
-// Insertion sort has poor time complexity: O(n^2).
+// Insertion sort average time complexity: O(n^2).
 // Possible good choice for ordering linked lists.
 
 // Note: Insertion sort has 2 advantages, speed on short lists and speed on almost-sorted lists.
