@@ -48,7 +48,7 @@ fn quicksort<T: Ord>(slice: &mut [T]) {
 
     assert!(left.last() <= right.first());
 
-    // This recursion continues the ordering process, by passing on
+    // These recursions continue the ordering process, by passing on
     // each of the two parts of the list for further processing.
     quicksort(left);
     quicksort(&mut right[1..]);
