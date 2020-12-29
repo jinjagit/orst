@@ -65,7 +65,7 @@ impl Sorter for QuickSort {
 }
 
 #[test]
-fn selection_works() {
+fn quick_sort_works() {
     let mut things = vec![4, 3, 5, 2, 1];
     QuickSort.sort(&mut things);
     assert_eq!(things, &[1, 2, 3, 4, 5]);
