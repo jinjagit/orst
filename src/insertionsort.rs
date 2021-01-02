@@ -8,7 +8,7 @@ use super::Sorter;
 // Included just to illustrate some of binary search functionality in Rust.
 
 pub struct InsertionSort {
-    binary: bool,
+    pub binary: bool,
 }
 
 impl Sorter for InsertionSort {

@@ -1,0 +1,300 @@
+bubble 0 0
+insertion: binary 0 0
+insertion: non-binary 0 0
+selection 0 0
+quick 0 0
+bubble 0 0
+insertion: binary 0 0
+insertion: non-binary 0 0
+selection 0 0
+quick 0 0
+bubble 0 0
+insertion: binary 0 0
+insertion: non-binary 0 0
+selection 0 0
+quick 0 0
+bubble 0 0
+insertion: binary 0 0
+insertion: non-binary 0 0
+selection 0 0
+quick 0 0
+bubble 0 0
+insertion: binary 0 0
+insertion: non-binary 0 0
+selection 0 0
+quick 0 0
+bubble 0 0
+insertion: binary 0 0
+insertion: non-binary 0 0
+selection 0 0
+quick 0 0
+bubble 0 0
+insertion: binary 0 0
+insertion: non-binary 0 0
+selection 0 0
+quick 0 0
+bubble 0 0
+insertion: binary 0 0
+insertion: non-binary 0 0
+selection 0 0
+quick 0 0
+bubble 0 0
+insertion: binary 0 0
+insertion: non-binary 0 0
+selection 0 0
+quick 0 0
+bubble 0 0
+insertion: binary 0 0
+insertion: non-binary 0 0
+selection 0 0
+quick 0 0
+bubble 1 0
+insertion: binary 1 0
+insertion: non-binary 1 0
+selection 1 0
+quick 1 0
+bubble 1 0
+insertion: binary 1 0
+insertion: non-binary 1 0
+selection 1 0
+quick 1 0
+bubble 1 0
+insertion: binary 1 0
+insertion: non-binary 1 0
+selection 1 0
+quick 1 0
+bubble 1 0
+insertion: binary 1 0
+insertion: non-binary 1 0
+selection 1 0
+quick 1 0
+bubble 1 0
+insertion: binary 1 0
+insertion: non-binary 1 0
+selection 1 0
+quick 1 0
+bubble 1 0
+insertion: binary 1 0
+insertion: non-binary 1 0
+selection 1 0
+quick 1 0
+bubble 1 0
+insertion: binary 1 0
+insertion: non-binary 1 0
+selection 1 0
+quick 1 0
+bubble 1 0
+insertion: binary 1 0
+insertion: non-binary 1 0
+selection 1 0
+quick 1 0
+bubble 1 0
+insertion: binary 1 0
+insertion: non-binary 1 0
+selection 1 0
+quick 1 0
+bubble 1 0
+insertion: binary 1 0
+insertion: non-binary 1 0
+selection 1 0
+quick 1 0
+bubble 10 81
+insertion: binary 10 30
+insertion: non-binary 10 29
+selection 10 45
+quick 10 29
+bubble 10 63
+insertion: binary 10 30
+insertion: non-binary 10 27
+selection 10 45
+quick 10 33
+bubble 10 72
+insertion: binary 10 30
+insertion: non-binary 10 32
+selection 10 45
+quick 10 31
+bubble 10 72
+insertion: binary 10 30
+insertion: non-binary 10 29
+selection 10 45
+quick 10 42
+bubble 10 72
+insertion: binary 10 30
+insertion: non-binary 10 37
+selection 10 45
+quick 10 35
+bubble 10 90
+insertion: binary 10 30
+insertion: non-binary 10 39
+selection 10 45
+quick 10 35
+bubble 10 72
+insertion: binary 10 30
+insertion: non-binary 10 31
+selection 10 45
+quick 10 33
+bubble 10 81
+insertion: binary 10 30
+insertion: non-binary 10 30
+selection 10 45
+quick 10 27
+bubble 10 72
+insertion: binary 10 30
+insertion: non-binary 10 33
+selection 10 45
+quick 10 38
+bubble 10 90
+insertion: binary 10 30
+insertion: non-binary 10 36
+selection 10 45
+quick 10 53
+bubble 100 9504
+insertion: binary 100 665
+insertion: non-binary 100 2653
+selection 100 4950
+quick 100 725
+bubble 100 8415
+insertion: binary 100 665
+insertion: non-binary 100 2721
+selection 100 4950
+quick 100 955
+bubble 100 8019
+insertion: binary 100 665
+insertion: non-binary 100 2406
+selection 100 4950
+quick 100 1125
+bubble 100 8415
+insertion: binary 100 665
+insertion: non-binary 100 2766
+selection 100 4950
+quick 100 840
+bubble 100 8514
+insertion: binary 100 665
+insertion: non-binary 100 2374
+selection 100 4950
+quick 100 942
+bubble 100 9207
+insertion: binary 100 665
+insertion: non-binary 100 2301
+selection 100 4950
+quick 100 868
+bubble 100 8217
+insertion: binary 100 665
+insertion: non-binary 100 2125
+selection 100 4950
+quick 100 988
+bubble 100 7920
+insertion: binary 100 665
+insertion: non-binary 100 2129
+selection 100 4950
+quick 100 810
+bubble 100 9009
+insertion: binary 100 665
+insertion: non-binary 100 2502
+selection 100 4950
+quick 100 831
+bubble 100 8019
+insertion: binary 100 665
+insertion: non-binary 100 2488
+selection 100 4950
+quick 100 915
+bubble 1000 955044
+insertion: binary 1000 9966
+insertion: non-binary 1000 245801
+selection 1000 499500
+quick 1000 14229
+bubble 1000 976023
+insertion: binary 1000 9966
+insertion: non-binary 1000 252493
+selection 1000 499500
+quick 1000 15584
+bubble 1000 972027
+insertion: binary 1000 9966
+insertion: non-binary 1000 260246
+selection 1000 499500
+quick 1000 14833
+bubble 1000 942057
+insertion: binary 1000 9966
+insertion: non-binary 1000 249516
+selection 1000 499500
+quick 1000 14957
+bubble 1000 972027
+insertion: binary 1000 9966
+insertion: non-binary 1000 252234
+selection 1000 499500
+quick 1000 14492
+bubble 1000 974025
+insertion: binary 1000 9966
+insertion: non-binary 1000 255707
+selection 1000 499500
+quick 1000 14003
+bubble 1000 951048
+insertion: binary 1000 9966
+insertion: non-binary 1000 254421
+selection 1000 499500
+quick 1000 14226
+bubble 1000 949050
+insertion: binary 1000 9966
+insertion: non-binary 1000 251087
+selection 1000 499500
+quick 1000 15464
+bubble 1000 982017
+insertion: binary 1000 9966
+insertion: non-binary 1000 238200
+selection 1000 499500
+quick 1000 15115
+bubble 1000 902097
+insertion: binary 1000 9966
+insertion: non-binary 1000 256545
+selection 1000 499500
+quick 1000 18285
+bubble 10000 99130086
+insertion: binary 10000 133602
+insertion: non-binary 10000 25311504
+selection 10000 49995000
+quick 10000 259642
+bubble 10000 98400159
+insertion: binary 10000 133602
+insertion: non-binary 10000 24735112
+selection 10000 49995000
+quick 10000 218048
+bubble 10000 99390060
+insertion: binary 10000 133602
+insertion: non-binary 10000 25176724
+selection 10000 49995000
+quick 10000 228646
+bubble 10000 99450054
+insertion: binary 10000 133602
+insertion: non-binary 10000 25138722
+selection 10000 49995000
+quick 10000 214692
+bubble 10000 97060293
+insertion: binary 10000 133602
+insertion: non-binary 10000 25356033
+selection 10000 49995000
+quick 10000 215960
+bubble 10000 98160183
+insertion: binary 10000 133602
+insertion: non-binary 10000 24987825
+selection 10000 49995000
+quick 10000 200625
+bubble 10000 99330066
+insertion: binary 10000 133602
+insertion: non-binary 10000 24783117
+selection 10000 49995000
+quick 10000 206298
+bubble 10000 97150284
+insertion: binary 10000 133602
+insertion: non-binary 10000 24866427
+selection 10000 49995000
+quick 10000 201083
+bubble 10000 98510148
+insertion: binary 10000 133602
+insertion: non-binary 10000 24868762
+selection 10000 49995000
+quick 10000 228822
+bubble 10000 99060093
+insertion: binary 10000 133602
+insertion: non-binary 10000 24577957
+selection 10000 49995000
+quick 10000 206888
