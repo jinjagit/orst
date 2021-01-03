@@ -40,7 +40,7 @@ fn main() {
     let mut rand = rand::thread_rng();
     let counter = Rc::new(Cell::new(0));
 
-    for &n in &[0, 1, 10, 100, 1000, 10000] {
+    for &n in &[0, 100, 500, 1000, 2500, 5000, 10000] {
         let mut values = Vec::with_capacity(n);
 
         for _ in 0..n {
@@ -54,14 +54,14 @@ fn main() {
 
         let took = bench(BubbleSort, &values, &counter);
         println!("{} {} {}", "bubble", n, took);
-        let took = bench(InsertionSort { binary: true }, &values, &counter);
-        println!("{} {} {}", "insertion-binary", n, took);
         let took = bench(InsertionSort { binary: false }, &values, &counter);
-        println!("{} {} {}", "insertion-non-binary", n, took);
+        println!("{} {} {}", "insertion", n, took);
         let took = bench(SelectionSort, &values, &counter);
         println!("{} {} {}", "selection", n, took);
         let took = bench(QuickSort, &values, &counter);
         println!("{} {} {}", "quick", n, took);
+        let took = bench(StdSorter, &values, &counter);
+        println!("{} {} {}", "std", n, took);
         }
     }
 
