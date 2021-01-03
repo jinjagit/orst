@@ -1,5 +1,5 @@
-// Benchmark of n of comparisons made, as rough indication of computational complexity.
-// Somewhat innacurate, as does not include measure of number of swaps.
+// Benchmark of n of comparisons performed, as approximation of computational complexity.
+// Somewhat innacurate, as does not include n swaps performed.
 
 use ::std::cell::Cell;
 use ::std::rc::Rc;
@@ -55,9 +55,9 @@ fn main() {
         let took = bench(BubbleSort, &values, &counter);
         println!("{} {} {}", "bubble", n, took);
         let took = bench(InsertionSort { binary: true }, &values, &counter);
-        println!("{} {} {}", "insertion: binary", n, took);
+        println!("{} {} {}", "insertion-binary", n, took);
         let took = bench(InsertionSort { binary: false }, &values, &counter);
-        println!("{} {} {}", "insertion: non-binary", n, took);
+        println!("{} {} {}", "insertion-non-binary", n, took);
         let took = bench(SelectionSort, &values, &counter);
         println!("{} {} {}", "selection", n, took);
         let took = bench(QuickSort, &values, &counter);
